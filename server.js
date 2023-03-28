@@ -12,7 +12,7 @@ dotenv.config();
 // importing connect from config
 const connect = require("./src/config/dbconfig");
 
-// controllers
+// controllers                      
 const smallCaseController = require("./src/controllers/landingPage.controller");
 const allSmallcasesController = require("./src/controllers/allSmallcases.controller");
 const smallcaseDetailController = require("./src/controllers/smallcaseDetail.controller");
